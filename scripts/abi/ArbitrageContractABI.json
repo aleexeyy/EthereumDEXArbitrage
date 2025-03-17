@@ -1,0 +1,162 @@
+{
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_provider",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [],
+        "name": "ADDRESSES_PROVIDER",
+        "outputs": [
+          {
+            "internalType": "contract IPoolAddressesProvider",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "POOL",
+        "outputs": [
+          {
+            "internalType": "contract IPool",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_asset",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "_premium",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "_initiator",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes",
+            "name": "_params",
+            "type": "bytes"
+          }
+        ],
+        "name": "executeOperation",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_tokenAddress",
+            "type": "address"
+          }
+        ],
+        "name": "getBalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "_notWETHToken",
+            "type": "address"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "outputAmount",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint24",
+                "name": "fee",
+                "type": "uint24"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "version",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "DEX",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct ExecuteArbitrage.PoolData[]",
+            "name": "_route",
+            "type": "tuple[]"
+          }
+        ],
+        "name": "requestFlashLoan",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_tokenAddress",
+            "type": "address"
+          }
+        ],
+        "name": "withdraw",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "stateMutability": "payable",
+        "type": "receive"
+      }
+    ]
+  }
+  

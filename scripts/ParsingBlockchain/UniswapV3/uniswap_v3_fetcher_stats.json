@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-03-11T13:03:47.123Z",
+  "processedCount": 22118,
+  "wethPairCount": 22118,
+  "uniqueTokens": 20036,
+  "retryStats": {
+    "totalRetries": 194,
+    "successfulRetries": 194,
+    "failedRetries": 0
+  },
+  "endpointStats": [
+    {
+      "name": "Endpoint 2",
+      "successCount": 10222,
+      "failureCount": 88,
+      "averageResponseTime": 86,
+      "successRate": 0.9913684414702745
+    },
+    {
+      "name": "Endpoint 3",
+      "successCount": 5604,
+      "failureCount": 18,
+      "averageResponseTime": 318,
+      "successRate": 0.9966210208073982
+    },
+    {
+      "name": "Endpoint 1",
+      "successCount": 9039,
+      "failureCount": 88,
+      "averageResponseTime": 371,
+      "successRate": 0.9902497808939527
+    }
+  ]
+}

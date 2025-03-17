@@ -1,0 +1,18 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.22.12"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "@aave/protocol-v2": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "axios": "^1.8.2",
+    "p-queue": "^8.1.0",
+    "throttled-queue": "^2.1.4"
+  }
+}

@@ -1,0 +1,700 @@
+[2025-03-11T09:00:46.169Z] INFO: Starting enhanced Sushiswap V2 pool data collection...
+[2025-03-11T09:00:46.351Z] DEBUG: Added token metadata: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 (decimals: 18)
+[2025-03-11T09:00:46.351Z] INFO: Initialized WETH token with 18 decimals
+[2025-03-11T09:00:46.419Z] INFO: Total Sushiswap V2 pools found: 4197
+[2025-03-11T09:00:46.420Z] INFO: Starting 8 workers to process 4197 pools
+[2025-03-11T09:00:46.739Z] DEBUG: Added token metadata: 0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3 (decimals: 18)
+[2025-03-11T09:00:46.780Z] DEBUG: Added token metadata: 0x38a2debbd03443235e13985706b53f2a08b04779 (decimals: 18)
+[2025-03-11T09:00:46.802Z] DEBUG: Added token metadata: 0x4f6fe985eae80d98a088e0b4970dc119254dede0 (decimals: 6)
+[2025-03-11T09:00:46.810Z] DEBUG: Added token metadata: 0xe80c0cd204d654cebe8dd64a4857cab6be8345a3 (decimals: 18)
+[2025-03-11T09:00:46.832Z] DEBUG: Added token metadata: 0x9b00e6e8d787b13756eb919786c9745054db64f9 (decimals: 18)
+[2025-03-11T09:00:46.900Z] DEBUG: Added token metadata: 0xdac17f958d2ee523a2206206994597c13d831ec7 (decimals: 6)
+[2025-03-11T09:00:46.901Z] INFO: Rate increased to 220.00000000000003 (success rate: 100.00%)
+[2025-03-11T09:00:46.956Z] DEBUG: Added token metadata: 0x544c42fbb96b39b21df61cf322b5edc285ee7429 (decimals: 18)
+[2025-03-11T09:00:47.016Z] DEBUG: Added token metadata: 0x48d38701a6f1a270d5bc3883d9926481ae3e74c7 (decimals: 18)
+[2025-03-11T09:00:47.040Z] DEBUG: Added token metadata: 0x4ecb692b0fedecd7b486b4c99044392784877e8c (decimals: 4)
+[2025-03-11T09:00:47.338Z] INFO: Rate increased to 242.00000000000006 (success rate: 100.00%)
+[2025-03-11T09:00:47.745Z] INFO: Rate increased to 266.2000000000001 (success rate: 100.00%)
+[2025-03-11T09:00:48.185Z] INFO: Rate increased to 292.82000000000016 (success rate: 100.00%)
+[2025-03-11T09:00:48.633Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:00:49.420Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:00:51.468Z] INFO: Rate increased to 220.00000000000003 (success rate: 100.00%)
+[2025-03-11T09:00:52.189Z] INFO: Rate increased to 242.00000000000006 (success rate: 100.00%)
+[2025-03-11T09:00:53.293Z] INFO: Rate increased to 266.2000000000001 (success rate: 100.00%)
+[2025-03-11T09:00:54.184Z] INFO: Found 100 WETH pairs so far
+[2025-03-11T09:00:54.533Z] INFO: Rate increased to 292.82000000000016 (success rate: 100.00%)
+[2025-03-11T09:00:55.537Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:00:56.562Z] RETRY: GetToken1(0x199875a951f1c7779933b7fcd3051fb4040d9497): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:00:56.575Z] RETRY: GetTokenDecimals(0x03042482d64577a7bdb282260e2ea4c8a89c064b): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:00:56.817Z] RETRY: GetToken0(0x175b55b340c3b0e69b14f34944d8dfd5976cbd2b): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:00:57.916Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:00:58.062Z] RETRY: GetToken1(0x199875a951f1c7779933b7fcd3051fb4040d9497): Attempt 2/6 started
+[2025-03-11T09:00:58.076Z] RETRY: GetTokenDecimals(0x03042482d64577a7bdb282260e2ea4c8a89c064b): Attempt 2/6 started
+[2025-03-11T09:00:58.252Z] RETRY: GetToken1(0x199875a951f1c7779933b7fcd3051fb4040d9497): Retry succeeded after 1 attempts
+[2025-03-11T09:00:58.277Z] RETRY: GetTokenDecimals(0x03042482d64577a7bdb282260e2ea4c8a89c064b): Retry succeeded after 1 attempts
+[2025-03-11T09:00:58.319Z] RETRY: GetToken0(0x175b55b340c3b0e69b14f34944d8dfd5976cbd2b): Attempt 2/6 started
+[2025-03-11T09:00:58.512Z] RETRY: GetToken0(0x175b55b340c3b0e69b14f34944d8dfd5976cbd2b): Retry succeeded after 1 attempts
+[2025-03-11T09:00:58.857Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:00:59.779Z] RETRY: GetToken1(0xaa20dc24c0df14d17633f50fc107d3914c54b9e3): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:00:59.813Z] RETRY: GetToken1(0x9691ce69b04b53fe45a77dc464dfdef05d30509d): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:00.018Z] RETRY: GetToken0(0xcc39592f5cb193a70f262aa301f54db1d600e6da): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:01.280Z] RETRY: GetToken1(0xaa20dc24c0df14d17633f50fc107d3914c54b9e3): Attempt 2/6 started
+[2025-03-11T09:01:01.287Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:01.315Z] RETRY: GetToken1(0x9691ce69b04b53fe45a77dc464dfdef05d30509d): Attempt 2/6 started
+[2025-03-11T09:01:01.493Z] RETRY: GetToken1(0x9691ce69b04b53fe45a77dc464dfdef05d30509d): Retry succeeded after 1 attempts
+[2025-03-11T09:01:01.504Z] RETRY: GetToken1(0xaa20dc24c0df14d17633f50fc107d3914c54b9e3): Retry succeeded after 1 attempts
+[2025-03-11T09:01:01.520Z] RETRY: GetToken0(0xcc39592f5cb193a70f262aa301f54db1d600e6da): Attempt 2/6 started
+[2025-03-11T09:01:01.782Z] RETRY: GetToken0(0xcc39592f5cb193a70f262aa301f54db1d600e6da): Retry succeeded after 1 attempts
+[2025-03-11T09:01:02.409Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:03.352Z] RETRY: GetToken0(0xbbd09f768082de6c642ee792f20f17aba6130a3c): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:03.419Z] RETRY: GetToken1(0x39043f4a27e4a030ad4bf33132d9d1535cd91ef6): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:04.537Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:04.853Z] RETRY: GetToken0(0xbbd09f768082de6c642ee792f20f17aba6130a3c): Attempt 2/6 started
+[2025-03-11T09:01:04.919Z] RETRY: GetToken1(0x39043f4a27e4a030ad4bf33132d9d1535cd91ef6): Attempt 2/6 started
+[2025-03-11T09:01:05.024Z] RETRY: GetToken0(0xbbd09f768082de6c642ee792f20f17aba6130a3c): Retry succeeded after 1 attempts
+[2025-03-11T09:01:05.110Z] RETRY: GetToken1(0x39043f4a27e4a030ad4bf33132d9d1535cd91ef6): Retry succeeded after 1 attempts
+[2025-03-11T09:01:05.602Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:06.174Z] INFO: Found 200 WETH pairs so far
+[2025-03-11T09:01:06.739Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:06.810Z] RETRY: GetToken1(0x109b93edb9b30844e7b1e3a5f7d7ab7a5caea5ab): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:07.185Z] RETRY: GetTokenDecimals(0xdb0f18081b505a7de20b18ac41856bcb4ba86a1a): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:07.851Z] INFO: Rate increased to 300 (success rate: 96.15%)
+[2025-03-11T09:01:08.311Z] RETRY: GetToken1(0x109b93edb9b30844e7b1e3a5f7d7ab7a5caea5ab): Attempt 2/6 started
+[2025-03-11T09:01:08.507Z] RETRY: GetToken1(0x109b93edb9b30844e7b1e3a5f7d7ab7a5caea5ab): Retry succeeded after 1 attempts
+[2025-03-11T09:01:08.685Z] RETRY: GetTokenDecimals(0xdb0f18081b505a7de20b18ac41856bcb4ba86a1a): Attempt 2/6 started
+[2025-03-11T09:01:08.878Z] RETRY: GetTokenDecimals(0xdb0f18081b505a7de20b18ac41856bcb4ba86a1a): Retry succeeded after 1 attempts
+[2025-03-11T09:01:09.008Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:09.424Z] RETRY: GetToken1(0x07f30eea759728c447791d888dd6a9ec593ab3cf): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:10.090Z] INFO: Rate increased to 300 (success rate: 98.04%)
+[2025-03-11T09:01:10.925Z] RETRY: GetToken1(0x07f30eea759728c447791d888dd6a9ec593ab3cf): Attempt 2/6 started
+[2025-03-11T09:01:11.017Z] RETRY: GetToken1(0x07f30eea759728c447791d888dd6a9ec593ab3cf): Retry succeeded after 1 attempts
+[2025-03-11T09:01:11.115Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:11.234Z] INFO: Increased concurrency to 25
+[2025-03-11T09:01:11.918Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:13.262Z] INFO: Rate increased to 220.00000000000003 (success rate: 100.00%)
+[2025-03-11T09:01:14.267Z] INFO: Rate increased to 242.00000000000006 (success rate: 100.00%)
+[2025-03-11T09:01:14.615Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:15.634Z] INFO: Increased concurrency to 30
+[2025-03-11T09:01:16.015Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:16.705Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:17.275Z] INFO: Found 300 WETH pairs so far
+[2025-03-11T09:01:18.041Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:18.075Z] INFO: Rate increased to 266.2000000000001 (success rate: 100.00%)
+[2025-03-11T09:01:19.223Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:20.372Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:20.378Z] RETRY: GetPoolByIndex(1633): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:20.597Z] RETRY: GetToken0(0xda427214f1426a208fa620f483fa2e66b15886b4): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:20.987Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:21.879Z] RETRY: GetPoolByIndex(1633): Attempt 2/6 started
+[2025-03-11T09:01:22.058Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:22.066Z] RETRY: GetPoolByIndex(1633): Retry succeeded after 1 attempts
+[2025-03-11T09:01:22.098Z] RETRY: GetToken0(0xda427214f1426a208fa620f483fa2e66b15886b4): Attempt 2/6 started
+[2025-03-11T09:01:22.282Z] RETRY: GetToken0(0xda427214f1426a208fa620f483fa2e66b15886b4): Retry succeeded after 1 attempts
+[2025-03-11T09:01:22.717Z] ERROR: Error fetching decimals for token 0x77f570baf4ef11eff266f4432289c8c0ca7255b1 - Failed to get decimals for token 0x77f570baf4ef11eff266f4432289c8c0ca7255b1
+[2025-03-11T09:01:22.718Z] STACK: Error: Failed to get decimals for token 0x77f570baf4ef11eff266f4432289c8c0ca7255b1
+    at getTokenDecimals (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:429:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processPool (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:727:31)
+[2025-03-11T09:01:22.969Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:24.186Z] RETRY: GetToken0(0xe7829a30ae90e114997d2f5749ade474c66c8d84): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:24.190Z] RETRY: GetToken0(0x454b8e254ccd72a524fb061b388db55d6a2824ca): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:24.206Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:01:24.207Z] RETRY: GetPoolByIndex(65): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:24.224Z] RETRY: GetToken1(0xa5dcc48e79a80ddfcc86f47b31b30dcefded21e0): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:25.458Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:01:25.687Z] RETRY: GetToken0(0xe7829a30ae90e114997d2f5749ade474c66c8d84): Attempt 2/6 started
+[2025-03-11T09:01:25.690Z] RETRY: GetToken0(0x454b8e254ccd72a524fb061b388db55d6a2824ca): Attempt 2/6 started
+[2025-03-11T09:01:25.708Z] RETRY: GetPoolByIndex(65): Attempt 2/6 started
+[2025-03-11T09:01:25.725Z] RETRY: GetToken1(0xa5dcc48e79a80ddfcc86f47b31b30dcefded21e0): Attempt 2/6 started
+[2025-03-11T09:01:25.791Z] RETRY: GetToken0(0x454b8e254ccd72a524fb061b388db55d6a2824ca): Retry succeeded after 1 attempts
+[2025-03-11T09:01:25.810Z] RETRY: GetToken1(0xa5dcc48e79a80ddfcc86f47b31b30dcefded21e0): Retry succeeded after 1 attempts
+[2025-03-11T09:01:25.889Z] RETRY: GetToken0(0xe7829a30ae90e114997d2f5749ade474c66c8d84): Retry succeeded after 1 attempts
+[2025-03-11T09:01:25.892Z] RETRY: GetPoolByIndex(65): Retry succeeded after 1 attempts
+[2025-03-11T09:01:26.510Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:01:27.684Z] INFO: Rate increased to 300 (success rate: 95.83%)
+[2025-03-11T09:01:27.819Z] INFO: Found 400 WETH pairs so far
+[2025-03-11T09:01:28.567Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:29.401Z] RETRY: GetPoolByIndex(3227): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:30.846Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:30.902Z] RETRY: GetPoolByIndex(3227): Attempt 2/6 started
+[2025-03-11T09:01:30.959Z] RETRY: GetPoolByIndex(3227): Retry succeeded after 1 attempts
+[2025-03-11T09:01:31.629Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:32.349Z] RETRY: GetToken1(0x9307539a322ec5afb08632bc97d8250f2d94544d): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:32.356Z] RETRY: GetToken1(0xca465b919ee40ef782842865717e9b34afe19ef7): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:32.377Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:01:32.377Z] RETRY: GetPoolByIndex(607): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:32.413Z] RETRY: GetToken0(0x8cb772a41b9cf2477c9f9cdf088d0525ea27977f): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:32.422Z] RETRY: GetToken1(0xeaadde1e14c587a7fb4ba78ea78109bb32975f1e): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:33.850Z] RETRY: GetToken1(0x9307539a322ec5afb08632bc97d8250f2d94544d): Attempt 2/6 started
+[2025-03-11T09:01:33.856Z] RETRY: GetToken1(0xca465b919ee40ef782842865717e9b34afe19ef7): Attempt 2/6 started
+[2025-03-11T09:01:33.878Z] RETRY: GetPoolByIndex(607): Attempt 2/6 started
+[2025-03-11T09:01:33.914Z] RETRY: GetToken0(0x8cb772a41b9cf2477c9f9cdf088d0525ea27977f): Attempt 2/6 started
+[2025-03-11T09:01:33.923Z] RETRY: GetToken1(0xeaadde1e14c587a7fb4ba78ea78109bb32975f1e): Attempt 2/6 started
+[2025-03-11T09:01:33.928Z] RETRY: GetToken1(0xca465b919ee40ef782842865717e9b34afe19ef7): Retry succeeded after 1 attempts
+[2025-03-11T09:01:33.937Z] RETRY: GetPoolByIndex(607): Retry succeeded after 1 attempts
+[2025-03-11T09:01:34.063Z] RETRY: GetToken1(0x9307539a322ec5afb08632bc97d8250f2d94544d): Retry succeeded after 1 attempts
+[2025-03-11T09:01:34.107Z] RETRY: GetToken1(0xeaadde1e14c587a7fb4ba78ea78109bb32975f1e): Retry succeeded after 1 attempts
+[2025-03-11T09:01:34.129Z] RETRY: GetToken0(0x8cb772a41b9cf2477c9f9cdf088d0525ea27977f): Retry succeeded after 1 attempts
+[2025-03-11T09:01:34.373Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:01:35.498Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:01:35.981Z] RETRY: GetTokenDecimals(0x136bced3af8530b81e4c7ff45c9228376726d173): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:36.003Z] RETRY: GetPoolByIndex(80): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:36.019Z] RETRY: GetToken1(0x82dbc2673e9640343d263a3c55de49021ad39ae2): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:37.481Z] RETRY: GetTokenDecimals(0x136bced3af8530b81e4c7ff45c9228376726d173): Attempt 2/6 started
+[2025-03-11T09:01:37.504Z] RETRY: GetPoolByIndex(80): Attempt 2/6 started
+[2025-03-11T09:01:37.521Z] RETRY: GetToken1(0x82dbc2673e9640343d263a3c55de49021ad39ae2): Attempt 2/6 started
+[2025-03-11T09:01:37.673Z] RETRY: GetTokenDecimals(0x136bced3af8530b81e4c7ff45c9228376726d173): Retry succeeded after 1 attempts
+[2025-03-11T09:01:37.692Z] RETRY: GetPoolByIndex(80): Retry succeeded after 1 attempts
+[2025-03-11T09:01:37.709Z] RETRY: GetToken1(0x82dbc2673e9640343d263a3c55de49021ad39ae2): Retry succeeded after 1 attempts
+[2025-03-11T09:01:37.906Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:38.670Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:38.807Z] INFO: Found 500 WETH pairs so far
+[2025-03-11T09:01:39.869Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:39.958Z] ERROR: Error fetching decimals for token 0xc19b6a4ac7c7cc24459f08984bbd09664af17bd1 - Failed to get decimals for token 0xc19b6a4ac7c7cc24459f08984bbd09664af17bd1
+[2025-03-11T09:01:39.959Z] STACK: Error: Failed to get decimals for token 0xc19b6a4ac7c7cc24459f08984bbd09664af17bd1
+    at getTokenDecimals (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:429:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processPool (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:727:31)
+[2025-03-11T09:01:40.185Z] RETRY: GetTokenDecimals(0xaebfaa45f98b655f85fdd6df3dc8e9c073a59779): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:40.193Z] RETRY: GetToken0(0xd4025a9a95ab66cab164ad9b38e9e212e3dee2df): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:40.544Z] INFO: Increased concurrency to 35
+[2025-03-11T09:01:40.861Z] INFO: Rate increased to 292.82000000000016 (success rate: 100.00%)
+[2025-03-11T09:01:41.686Z] RETRY: GetTokenDecimals(0xaebfaa45f98b655f85fdd6df3dc8e9c073a59779): Attempt 2/6 started
+[2025-03-11T09:01:41.694Z] RETRY: GetToken0(0xd4025a9a95ab66cab164ad9b38e9e212e3dee2df): Attempt 2/6 started
+[2025-03-11T09:01:41.762Z] RETRY: GetTokenDecimals(0xaebfaa45f98b655f85fdd6df3dc8e9c073a59779): Retry succeeded after 1 attempts
+[2025-03-11T09:01:41.774Z] RETRY: GetToken0(0xd4025a9a95ab66cab164ad9b38e9e212e3dee2df): Retry succeeded after 1 attempts
+[2025-03-11T09:01:42.166Z] INFO: Rate increased to 300 (success rate: 95.92%)
+[2025-03-11T09:01:42.915Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:43.818Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:44.886Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:45.357Z] RETRY: GetToken0(0xcd83cada168c389fb5221e2cc961e6a56163176a): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:45.422Z] RETRY: GetToken1(0xc4949929328e41521cf2a8acbac54179dd9db3ae): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:46.157Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:46.206Z] INFO: Progress saved: 566 pools processed, 566 WETH pairs found, 567 unique tokens, retries: 28 (28 successful)
+[2025-03-11T09:01:46.208Z] INFO: Token metadata saved: 567 tokens
+[2025-03-11T09:01:46.858Z] RETRY: GetToken0(0xcd83cada168c389fb5221e2cc961e6a56163176a): Attempt 2/6 started
+[2025-03-11T09:01:46.924Z] RETRY: GetToken1(0xc4949929328e41521cf2a8acbac54179dd9db3ae): Attempt 2/6 started
+[2025-03-11T09:01:46.984Z] RETRY: GetToken1(0xc4949929328e41521cf2a8acbac54179dd9db3ae): Retry succeeded after 1 attempts
+[2025-03-11T09:01:47.058Z] RETRY: GetToken0(0xcd83cada168c389fb5221e2cc961e6a56163176a): Retry succeeded after 1 attempts
+[2025-03-11T09:01:47.153Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:48.025Z] INFO: Rate increased to 300 (success rate: 95.92%)
+[2025-03-11T09:01:48.068Z] INFO: Increased concurrency to 40
+[2025-03-11T09:01:48.620Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:49.645Z] INFO: Found 600 WETH pairs so far
+[2025-03-11T09:01:50.359Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:51.135Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:52.534Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:52.741Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:53.443Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:54.296Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:54.403Z] RETRY: GetToken1(0x82f9f89a6a0daa42a5d065b41e151d2e60c8d16f): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:54.406Z] RETRY: GetTokenDecimals(0xf67041758d3b6e56d6fdafa5b32038302c3634da): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:01:55.775Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:55.904Z] RETRY: GetToken1(0x82f9f89a6a0daa42a5d065b41e151d2e60c8d16f): Attempt 2/6 started
+[2025-03-11T09:01:55.907Z] RETRY: GetTokenDecimals(0xf67041758d3b6e56d6fdafa5b32038302c3634da): Attempt 2/6 started
+[2025-03-11T09:01:55.976Z] RETRY: GetToken1(0x82f9f89a6a0daa42a5d065b41e151d2e60c8d16f): Retry succeeded after 1 attempts
+[2025-03-11T09:01:55.980Z] RETRY: GetTokenDecimals(0xf67041758d3b6e56d6fdafa5b32038302c3634da): Retry succeeded after 1 attempts
+[2025-03-11T09:01:57.789Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:58.558Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:01:59.143Z] INFO: Found 700 WETH pairs so far
+[2025-03-11T09:01:59.593Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:00.607Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:00.786Z] RETRY: GetToken0(0x725e6d38243561110aa2f64d42b57a2a13c92b2b): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:00.861Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:01.952Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:02.288Z] RETRY: GetToken0(0x725e6d38243561110aa2f64d42b57a2a13c92b2b): Attempt 2/6 started
+[2025-03-11T09:02:02.461Z] RETRY: GetToken0(0x725e6d38243561110aa2f64d42b57a2a13c92b2b): Retry succeeded after 1 attempts
+[2025-03-11T09:02:02.694Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:03.908Z] INFO: Rate increased to 300 (success rate: 98.00%)
+[2025-03-11T09:02:04.963Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:06.621Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:07.787Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:08.179Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:08.770Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:09.134Z] INFO: Found 800 WETH pairs so far
+[2025-03-11T09:02:09.394Z] INFO: Increased concurrency to 45
+[2025-03-11T09:02:09.893Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:10.528Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:11.380Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:12.275Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:13.510Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:14.305Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:15.616Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:16.249Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:16.622Z] INFO: Increased concurrency to 50
+[2025-03-11T09:02:18.260Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:18.351Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:19.309Z] INFO: Found 900 WETH pairs so far
+[2025-03-11T09:02:19.354Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:20.400Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:21.067Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:21.805Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:23.500Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:23.551Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:24.250Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:25.805Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:26.846Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:27.890Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:28.717Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:29.213Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:30.458Z] INFO: Found 1000 WETH pairs so far
+[2025-03-11T09:02:30.529Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:31.112Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:32.245Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:32.372Z] RETRY: GetToken0(0x8d242e9b76ce6971da3adf14b0fb6dfb0699ff18): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:32.615Z] RETRY: GetPoolByIndex(1747): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:33.762Z] INFO: Rate increased to 300 (success rate: 96.08%)
+[2025-03-11T09:02:33.873Z] RETRY: GetToken0(0x8d242e9b76ce6971da3adf14b0fb6dfb0699ff18): Attempt 2/6 started
+[2025-03-11T09:02:34.067Z] RETRY: GetToken0(0x8d242e9b76ce6971da3adf14b0fb6dfb0699ff18): Retry succeeded after 1 attempts
+[2025-03-11T09:02:34.117Z] RETRY: GetPoolByIndex(1747): Attempt 2/6 started
+[2025-03-11T09:02:34.183Z] RETRY: GetPoolByIndex(1747): Retry succeeded after 1 attempts
+[2025-03-11T09:02:34.713Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:35.381Z] RETRY: GetPoolByIndex(3343): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:35.415Z] RETRY: GetToken0(0xd9c2088eb999ade7ddb92bc95ad70ab2d30f7c24): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:36.662Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:36.883Z] RETRY: GetPoolByIndex(3343): Attempt 2/6 started
+[2025-03-11T09:02:36.916Z] RETRY: GetToken0(0xd9c2088eb999ade7ddb92bc95ad70ab2d30f7c24): Attempt 2/6 started
+[2025-03-11T09:02:37.066Z] RETRY: GetPoolByIndex(3343): Retry succeeded after 1 attempts
+[2025-03-11T09:02:37.104Z] RETRY: GetToken0(0xd9c2088eb999ade7ddb92bc95ad70ab2d30f7c24): Retry succeeded after 1 attempts
+[2025-03-11T09:02:37.610Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:38.169Z] RETRY: GetToken0(0x6d0fe17123ba0ce48528db3e999c36dd1e7bc561): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:38.171Z] RETRY: GetToken0(0x3cf1cf47bc87c23cd9410549bd8a75e82c1c73cf): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:38.210Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:02:38.210Z] RETRY: GetPoolByIndex(1233): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:38.227Z] RETRY: GetPoolByIndex(3345): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:39.529Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:39.670Z] RETRY: GetToken0(0x6d0fe17123ba0ce48528db3e999c36dd1e7bc561): Attempt 2/6 started
+[2025-03-11T09:02:39.672Z] RETRY: GetToken0(0x3cf1cf47bc87c23cd9410549bd8a75e82c1c73cf): Attempt 2/6 started
+[2025-03-11T09:02:39.711Z] RETRY: GetPoolByIndex(1233): Attempt 2/6 started
+[2025-03-11T09:02:39.728Z] RETRY: GetPoolByIndex(3345): Attempt 2/6 started
+[2025-03-11T09:02:39.733Z] RETRY: GetToken0(0x6d0fe17123ba0ce48528db3e999c36dd1e7bc561): Retry succeeded after 1 attempts
+[2025-03-11T09:02:39.736Z] RETRY: GetToken0(0x3cf1cf47bc87c23cd9410549bd8a75e82c1c73cf): Retry succeeded after 1 attempts
+[2025-03-11T09:02:39.917Z] RETRY: GetPoolByIndex(1233): Retry succeeded after 1 attempts
+[2025-03-11T09:02:39.919Z] RETRY: GetPoolByIndex(3345): Retry succeeded after 1 attempts
+[2025-03-11T09:02:40.389Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:41.381Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:41.577Z] INFO: Found 1100 WETH pairs so far
+[2025-03-11T09:02:42.693Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:02:43.986Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:45.056Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:46.004Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:46.289Z] INFO: Progress saved: 1151 pools processed, 1151 WETH pairs found, 1152 unique tokens, retries: 41 (41 successful)
+[2025-03-11T09:02:46.291Z] INFO: Token metadata saved: 1152 tokens
+[2025-03-11T09:02:47.271Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:48.195Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:48.715Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:02:49.534Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:50.597Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:51.024Z] INFO: Found 1200 WETH pairs so far
+[2025-03-11T09:02:51.296Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:52.933Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:53.145Z] ERROR: Error fetching decimals for token 0x043942281890d4876d26bd98e2bb3f662635dffb - Failed to get decimals for token 0x043942281890d4876d26bd98e2bb3f662635dffb
+[2025-03-11T09:02:53.145Z] STACK: Error: Failed to get decimals for token 0x043942281890d4876d26bd98e2bb3f662635dffb
+    at getTokenDecimals (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:429:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processPool (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:727:31)
+[2025-03-11T09:02:53.661Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:54.886Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:55.019Z] RETRY: GetToken0(0x9c803c103ef2db0a58f4efbf67e442f9e542dcc8): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:55.194Z] RETRY: GetToken1(0x717385e1a702f90b6eb8cd23150702ca7217b626): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:56.013Z] INFO: Rate increased to 300 (success rate: 96.30%)
+[2025-03-11T09:02:56.520Z] RETRY: GetToken0(0x9c803c103ef2db0a58f4efbf67e442f9e542dcc8): Attempt 2/6 started
+[2025-03-11T09:02:56.582Z] RETRY: GetToken0(0x9c803c103ef2db0a58f4efbf67e442f9e542dcc8): Retry succeeded after 1 attempts
+[2025-03-11T09:02:56.695Z] RETRY: GetToken1(0x717385e1a702f90b6eb8cd23150702ca7217b626): Attempt 2/6 started
+[2025-03-11T09:02:56.771Z] RETRY: GetToken1(0x717385e1a702f90b6eb8cd23150702ca7217b626): Retry succeeded after 1 attempts
+[2025-03-11T09:02:56.935Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:02:58.137Z] RETRY: GetTokenDecimals(0xf9c0f6b2b29fc20858935375299aed1dde26e50d): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:58.159Z] RETRY: GetPoolByIndex(2860): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:58.161Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:02:58.161Z] RETRY: GetToken0(0xd04fb79f5f9682a5a587c16341cb10bb90fca04b): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:02:59.545Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:02:59.638Z] RETRY: GetTokenDecimals(0xf9c0f6b2b29fc20858935375299aed1dde26e50d): Attempt 2/6 started
+[2025-03-11T09:02:59.659Z] RETRY: GetPoolByIndex(2860): Attempt 2/6 started
+[2025-03-11T09:02:59.662Z] RETRY: GetToken0(0xd04fb79f5f9682a5a587c16341cb10bb90fca04b): Attempt 2/6 started
+[2025-03-11T09:02:59.695Z] RETRY: GetTokenDecimals(0xf9c0f6b2b29fc20858935375299aed1dde26e50d): Retry succeeded after 1 attempts
+[2025-03-11T09:02:59.729Z] RETRY: GetToken0(0xd04fb79f5f9682a5a587c16341cb10bb90fca04b): Retry succeeded after 1 attempts
+[2025-03-11T09:02:59.851Z] RETRY: GetPoolByIndex(2860): Retry succeeded after 1 attempts
+[2025-03-11T09:03:00.078Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:00.426Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:03:00.801Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:01.884Z] INFO: Found 1300 WETH pairs so far
+[2025-03-11T09:03:02.169Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:03.533Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:04.612Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:05.865Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:06.488Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:07.580Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:08.103Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:08.713Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:09.787Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:10.691Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:11.673Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:12.314Z] INFO: Found 1400 WETH pairs so far
+[2025-03-11T09:03:13.052Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:13.921Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:14.655Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:15.530Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:16.518Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:17.574Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:17.779Z] RETRY: GetToken0(0x69b81152c5a8d35a67b32a4d3772795d96cae4da): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:17.784Z] RETRY: GetPoolByIndex(3925): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:18.679Z] INFO: Rate increased to 300 (success rate: 96.15%)
+[2025-03-11T09:03:19.280Z] RETRY: GetToken0(0x69b81152c5a8d35a67b32a4d3772795d96cae4da): Attempt 2/6 started
+[2025-03-11T09:03:19.284Z] RETRY: GetPoolByIndex(3925): Attempt 2/6 started
+[2025-03-11T09:03:19.470Z] RETRY: GetPoolByIndex(3925): Retry succeeded after 1 attempts
+[2025-03-11T09:03:19.485Z] RETRY: GetToken0(0x69b81152c5a8d35a67b32a4d3772795d96cae4da): Retry succeeded after 1 attempts
+[2025-03-11T09:03:19.828Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:20.378Z] RETRY: GetToken0(0xd46004eed3885e0a74d452811c80eb41270a5728): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:20.496Z] RETRY: GetToken1(0x16cb9f72903e280870e12bc5de990b668d6a2d59): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:20.557Z] RETRY: GetToken1(0x5cf09a7a69aae368aef6f355c286c68510951633): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:20.558Z] RETRY: GetToken1(0xcfbee4cea2cee49afbcdfe5a7fdf13e5019ded97): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:21.879Z] RETRY: GetToken0(0xd46004eed3885e0a74d452811c80eb41270a5728): Attempt 2/6 started
+[2025-03-11T09:03:21.947Z] RETRY: GetToken0(0xd46004eed3885e0a74d452811c80eb41270a5728): Retry succeeded after 1 attempts
+[2025-03-11T09:03:21.997Z] RETRY: GetToken1(0x16cb9f72903e280870e12bc5de990b668d6a2d59): Attempt 2/6 started
+[2025-03-11T09:03:22.059Z] RETRY: GetToken1(0x5cf09a7a69aae368aef6f355c286c68510951633): Attempt 2/6 started
+[2025-03-11T09:03:22.060Z] RETRY: GetToken1(0xcfbee4cea2cee49afbcdfe5a7fdf13e5019ded97): Attempt 2/6 started
+[2025-03-11T09:03:22.177Z] RETRY: GetToken1(0x16cb9f72903e280870e12bc5de990b668d6a2d59): Retry succeeded after 1 attempts
+[2025-03-11T09:03:22.248Z] RETRY: GetToken1(0xcfbee4cea2cee49afbcdfe5a7fdf13e5019ded97): Retry succeeded after 1 attempts
+[2025-03-11T09:03:22.279Z] RETRY: GetToken1(0x5cf09a7a69aae368aef6f355c286c68510951633): Retry succeeded after 1 attempts
+[2025-03-11T09:03:22.314Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:23.248Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:23.703Z] INFO: Found 1500 WETH pairs so far
+[2025-03-11T09:03:24.152Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:25.123Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:26.144Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:27.058Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:27.940Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:28.808Z] RETRY: GetPoolByIndex(282): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:28.964Z] RETRY: GetToken1(0x9d3e88a8a77b3726ef0d74b336d46ad8890bf27b): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:28.972Z] RETRY: GetToken0(0xa38e563f340cf1876f08b029de3214a5793aedfc): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:28.996Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:03:28.997Z] RETRY: GetToken0(0x2f1d940593e661e1aa1f274aa419f2b8b8acefc2): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:30.309Z] RETRY: GetPoolByIndex(282): Attempt 2/6 started
+[2025-03-11T09:03:30.370Z] RETRY: GetPoolByIndex(282): Retry succeeded after 1 attempts
+[2025-03-11T09:03:30.465Z] RETRY: GetToken1(0x9d3e88a8a77b3726ef0d74b336d46ad8890bf27b): Attempt 2/6 started
+[2025-03-11T09:03:30.473Z] RETRY: GetToken0(0xa38e563f340cf1876f08b029de3214a5793aedfc): Attempt 2/6 started
+[2025-03-11T09:03:30.498Z] RETRY: GetToken0(0x2f1d940593e661e1aa1f274aa419f2b8b8acefc2): Attempt 2/6 started
+[2025-03-11T09:03:30.661Z] RETRY: GetToken0(0xa38e563f340cf1876f08b029de3214a5793aedfc): Retry succeeded after 1 attempts
+[2025-03-11T09:03:30.673Z] RETRY: GetToken1(0x9d3e88a8a77b3726ef0d74b336d46ad8890bf27b): Retry succeeded after 1 attempts
+[2025-03-11T09:03:30.704Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:03:30.733Z] RETRY: GetToken0(0x2f1d940593e661e1aa1f274aa419f2b8b8acefc2): Retry succeeded after 1 attempts
+[2025-03-11T09:03:31.637Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:03:32.586Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:33.416Z] RETRY: GetTokenDecimals(0x2b28e6a90782f970937e17668c6385c32ec3f773): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:33.556Z] RETRY: GetToken0(0x55e011b7ccd001037ecd5120f5a6e0d648f1f2cc): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:33.578Z] RETRY: GetToken0(0x56fbf1a8177ee1674a3d8b13418ab2522b121512): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:33.624Z] RETRY: GetPoolByIndex(2914): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:34.917Z] RETRY: GetTokenDecimals(0x2b28e6a90782f970937e17668c6385c32ec3f773): Attempt 2/6 started
+[2025-03-11T09:03:34.973Z] INFO: Found 1600 WETH pairs so far
+[2025-03-11T09:03:34.984Z] RETRY: GetTokenDecimals(0x2b28e6a90782f970937e17668c6385c32ec3f773): Retry succeeded after 1 attempts
+[2025-03-11T09:03:35.056Z] RETRY: GetToken0(0x55e011b7ccd001037ecd5120f5a6e0d648f1f2cc): Attempt 2/6 started
+[2025-03-11T09:03:35.079Z] RETRY: GetToken0(0x56fbf1a8177ee1674a3d8b13418ab2522b121512): Attempt 2/6 started
+[2025-03-11T09:03:35.125Z] RETRY: GetPoolByIndex(2914): Attempt 2/6 started
+[2025-03-11T09:03:35.157Z] RETRY: GetToken0(0x56fbf1a8177ee1674a3d8b13418ab2522b121512): Retry succeeded after 1 attempts
+[2025-03-11T09:03:35.234Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:35.237Z] RETRY: GetPoolByIndex(2914): Retry succeeded after 1 attempts
+[2025-03-11T09:03:35.258Z] RETRY: GetToken0(0x55e011b7ccd001037ecd5120f5a6e0d648f1f2cc): Retry succeeded after 1 attempts
+[2025-03-11T09:03:36.251Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:37.255Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:38.620Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:39.562Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:40.549Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:41.015Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:42.022Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:43.119Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:43.597Z] RETRY: GetToken0(0x87b3b86148995cedc3352a8a555a9116255df219): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:43.600Z] RETRY: GetToken1(0x9fd76c5d9558218b3e6b92df7c3d2dbcfc7f335d): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:44.084Z] INFO: Found 1700 WETH pairs so far
+[2025-03-11T09:03:44.282Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:45.098Z] RETRY: GetToken0(0x87b3b86148995cedc3352a8a555a9116255df219): Attempt 2/6 started
+[2025-03-11T09:03:45.100Z] RETRY: GetToken1(0x9fd76c5d9558218b3e6b92df7c3d2dbcfc7f335d): Attempt 2/6 started
+[2025-03-11T09:03:45.289Z] RETRY: GetToken0(0x87b3b86148995cedc3352a8a555a9116255df219): Retry succeeded after 1 attempts
+[2025-03-11T09:03:45.295Z] RETRY: GetToken1(0x9fd76c5d9558218b3e6b92df7c3d2dbcfc7f335d): Retry succeeded after 1 attempts
+[2025-03-11T09:03:45.441Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:46.293Z] INFO: Progress saved: 1722 pools processed, 1722 WETH pairs found, 1723 unique tokens, retries: 62 (62 successful)
+[2025-03-11T09:03:46.295Z] INFO: Token metadata saved: 1723 tokens
+[2025-03-11T09:03:46.490Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:47.376Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:48.155Z] RETRY: GetToken1(0x0013df4ec514d5839ad4f535e4987498ebb58bf5): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:48.160Z] RETRY: GetTokenDecimals(0xf938424f7210f31df2aee3011291b658f872e91e): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:48.193Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:03:48.193Z] RETRY: GetToken1(0x02f2e294b1d3cf1ae1a938d8144cc5caf424b9ab): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:48.194Z] RETRY: GetPoolByIndex(2938): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:03:48.848Z] INFO: Rate increased to 300 (success rate: 96.23%)
+[2025-03-11T09:03:49.656Z] RETRY: GetToken1(0x0013df4ec514d5839ad4f535e4987498ebb58bf5): Attempt 2/6 started
+[2025-03-11T09:03:49.660Z] RETRY: GetTokenDecimals(0xf938424f7210f31df2aee3011291b658f872e91e): Attempt 2/6 started
+[2025-03-11T09:03:49.695Z] RETRY: GetToken1(0x02f2e294b1d3cf1ae1a938d8144cc5caf424b9ab): Attempt 2/6 started
+[2025-03-11T09:03:49.696Z] RETRY: GetPoolByIndex(2938): Attempt 2/6 started
+[2025-03-11T09:03:49.745Z] RETRY: GetToken1(0x0013df4ec514d5839ad4f535e4987498ebb58bf5): Retry succeeded after 1 attempts
+[2025-03-11T09:03:49.762Z] RETRY: GetPoolByIndex(2938): Retry succeeded after 1 attempts
+[2025-03-11T09:03:49.804Z] RETRY: GetToken1(0x02f2e294b1d3cf1ae1a938d8144cc5caf424b9ab): Retry succeeded after 1 attempts
+[2025-03-11T09:03:49.904Z] RETRY: GetTokenDecimals(0xf938424f7210f31df2aee3011291b658f872e91e): Retry succeeded after 1 attempts
+[2025-03-11T09:03:50.058Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:51.012Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:52.607Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:53.320Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:54.296Z] INFO: Found 1800 WETH pairs so far
+[2025-03-11T09:03:54.798Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:54.926Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:56.116Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:57.821Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:58.427Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:03:59.309Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:00.195Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:04:00.902Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:02.999Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:04:03.765Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:04.331Z] INFO: Found 1900 WETH pairs so far
+[2025-03-11T09:04:04.768Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:05.827Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:06.712Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:06.748Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:07.576Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:08.146Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:08.841Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:10.877Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:11.568Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:12.377Z] RETRY: GetTokenDecimals(0x70bef3bb2f001da2fddb207dae696cd9faff3f5d): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:12.401Z] RETRY: GetTokenDecimals(0x0a24fc557863b3e34413e7381d78f9e910eae198): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:12.408Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:04:12.408Z] RETRY: GetTokenDecimals(0x9104d72c25fda61c5fdd18c5ae2e17ffbc5ae070): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:12.729Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:13.879Z] RETRY: GetTokenDecimals(0x70bef3bb2f001da2fddb207dae696cd9faff3f5d): Attempt 2/6 started
+[2025-03-11T09:04:13.880Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:13.901Z] RETRY: GetTokenDecimals(0x0a24fc557863b3e34413e7381d78f9e910eae198): Attempt 2/6 started
+[2025-03-11T09:04:13.909Z] RETRY: GetTokenDecimals(0x9104d72c25fda61c5fdd18c5ae2e17ffbc5ae070): Attempt 2/6 started
+[2025-03-11T09:04:13.940Z] RETRY: GetTokenDecimals(0x70bef3bb2f001da2fddb207dae696cd9faff3f5d): Retry succeeded after 1 attempts
+[2025-03-11T09:04:13.969Z] RETRY: GetTokenDecimals(0x9104d72c25fda61c5fdd18c5ae2e17ffbc5ae070): Retry succeeded after 1 attempts
+[2025-03-11T09:04:13.979Z] RETRY: GetTokenDecimals(0x0a24fc557863b3e34413e7381d78f9e910eae198): Retry succeeded after 1 attempts
+[2025-03-11T09:04:15.193Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:15.805Z] INFO: Found 2000 WETH pairs so far
+[2025-03-11T09:04:16.078Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:17.051Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:18.467Z] ERROR: Error fetching decimals for token 0x1da4858ad385cc377165a298cc2ce3fce0c5fd31 - Failed to get decimals for token 0x1da4858ad385cc377165a298cc2ce3fce0c5fd31
+[2025-03-11T09:04:18.467Z] STACK: Error: Failed to get decimals for token 0x1da4858ad385cc377165a298cc2ce3fce0c5fd31
+    at getTokenDecimals (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:429:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processPool (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:727:31)
+[2025-03-11T09:04:18.581Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:19.054Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:19.853Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:21.195Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:22.024Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:22.841Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:23.743Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:25.587Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:26.270Z] INFO: Found 2100 WETH pairs so far
+[2025-03-11T09:04:26.691Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:04:27.876Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:28.743Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:30.195Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:31.063Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:31.530Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:04:32.729Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:32.767Z] RETRY: GetToken1(0x23ca5e2ef187ed36964cd40df9fe3f2e1ca63c41): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:32.778Z] RETRY: GetPoolByIndex(3013): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:33.857Z] INFO: Rate increased to 300 (success rate: 96.15%)
+[2025-03-11T09:04:34.268Z] RETRY: GetToken1(0x23ca5e2ef187ed36964cd40df9fe3f2e1ca63c41): Attempt 2/6 started
+[2025-03-11T09:04:34.279Z] RETRY: GetPoolByIndex(3013): Attempt 2/6 started
+[2025-03-11T09:04:34.346Z] RETRY: GetToken1(0x23ca5e2ef187ed36964cd40df9fe3f2e1ca63c41): Retry succeeded after 1 attempts
+[2025-03-11T09:04:34.349Z] RETRY: GetPoolByIndex(3013): Retry succeeded after 1 attempts
+[2025-03-11T09:04:34.824Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:35.860Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:37.011Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:37.063Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:37.070Z] INFO: Found 2200 WETH pairs so far
+[2025-03-11T09:04:37.878Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:39.312Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:40.134Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:41.140Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:42.152Z] RETRY: GetToken0(0x2101072e369761435a532a83369984ec3950aef2): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:42.173Z] RETRY: GetToken0(0x0aff7c6f8d8a1c8424245b048ab09a6b4f04374a): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:42.182Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:04:42.183Z] RETRY: GetPoolByIndex(409): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:42.210Z] RETRY: GetToken0(0x62970575502f4c7583f6d77e5c6ec1c740c36368): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:43.652Z] RETRY: GetToken0(0x2101072e369761435a532a83369984ec3950aef2): Attempt 2/6 started
+[2025-03-11T09:04:43.674Z] RETRY: GetToken0(0x0aff7c6f8d8a1c8424245b048ab09a6b4f04374a): Attempt 2/6 started
+[2025-03-11T09:04:43.683Z] RETRY: GetPoolByIndex(409): Attempt 2/6 started
+[2025-03-11T09:04:43.712Z] RETRY: GetToken0(0x62970575502f4c7583f6d77e5c6ec1c740c36368): Attempt 2/6 started
+[2025-03-11T09:04:43.850Z] RETRY: GetToken0(0x2101072e369761435a532a83369984ec3950aef2): Retry succeeded after 1 attempts
+[2025-03-11T09:04:43.867Z] RETRY: GetToken0(0x0aff7c6f8d8a1c8424245b048ab09a6b4f04374a): Retry succeeded after 1 attempts
+[2025-03-11T09:04:43.879Z] RETRY: GetPoolByIndex(409): Retry succeeded after 1 attempts
+[2025-03-11T09:04:43.902Z] RETRY: GetToken0(0x62970575502f4c7583f6d77e5c6ec1c740c36368): Retry succeeded after 1 attempts
+[2025-03-11T09:04:43.902Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:04:44.212Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:44.496Z] ERROR: Error fetching decimals for token 0x045c335f9c408fe456611db905dde61a334980a7 - Failed to get decimals for token 0x045c335f9c408fe456611db905dde61a334980a7
+[2025-03-11T09:04:44.496Z] STACK: Error: Failed to get decimals for token 0x045c335f9c408fe456611db905dde61a334980a7
+    at getTokenDecimals (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:429:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processPool (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:727:31)
+[2025-03-11T09:04:45.126Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:46.331Z] INFO: Progress saved: 2296 pools processed, 2296 WETH pairs found, 2297 unique tokens, retries: 75 (75 successful)
+[2025-03-11T09:04:46.335Z] INFO: Token metadata saved: 2297 tokens
+[2025-03-11T09:04:46.758Z] INFO: Found 2300 WETH pairs so far
+[2025-03-11T09:04:46.809Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:47.659Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:49.008Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:04:50.313Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:50.691Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:51.555Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:52.472Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:54.054Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:54.733Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:55.825Z] RETRY: GetPoolByIndex(1474): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:55.994Z] RETRY: GetToken1(0x804be24f625c7e23edd9fa68e4582590c57ad2b3): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:04:56.761Z] INFO: Found 2400 WETH pairs so far
+[2025-03-11T09:04:56.923Z] INFO: Rate increased to 300 (success rate: 98.04%)
+[2025-03-11T09:04:57.327Z] RETRY: GetPoolByIndex(1474): Attempt 2/6 started
+[2025-03-11T09:04:57.496Z] RETRY: GetToken1(0x804be24f625c7e23edd9fa68e4582590c57ad2b3): Attempt 2/6 started
+[2025-03-11T09:04:57.546Z] RETRY: GetPoolByIndex(1474): Retry succeeded after 1 attempts
+[2025-03-11T09:04:57.692Z] RETRY: GetToken1(0x804be24f625c7e23edd9fa68e4582590c57ad2b3): Retry succeeded after 1 attempts
+[2025-03-11T09:04:58.118Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:58.590Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:04:59.273Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:00.293Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:00.791Z] RETRY: GetToken0(0x8d308e01f0401345996552dc391e44c4f3ce8754): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:00.793Z] RETRY: GetToken1(0xfbaf885b8c2f74f989b38573e0a4d8b429cb841f): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:01.779Z] INFO: Rate increased to 300 (success rate: 96.15%)
+[2025-03-11T09:05:02.293Z] RETRY: GetToken0(0x8d308e01f0401345996552dc391e44c4f3ce8754): Attempt 2/6 started
+[2025-03-11T09:05:02.294Z] RETRY: GetToken1(0xfbaf885b8c2f74f989b38573e0a4d8b429cb841f): Attempt 2/6 started
+[2025-03-11T09:05:02.362Z] RETRY: GetToken0(0x8d308e01f0401345996552dc391e44c4f3ce8754): Retry succeeded after 1 attempts
+[2025-03-11T09:05:02.525Z] RETRY: GetToken1(0xfbaf885b8c2f74f989b38573e0a4d8b429cb841f): Retry succeeded after 1 attempts
+[2025-03-11T09:05:02.803Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:03.697Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:04.717Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:05.151Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:06.056Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:07.368Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:07.584Z] INFO: Found 2500 WETH pairs so far
+[2025-03-11T09:05:08.335Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:08.590Z] RETRY: GetToken1(0x2c80d72af9ab0bb9d98f607c817c6f512dd647e6): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:08.592Z] RETRY: GetToken1(0xd6f7789406fa768a4bb0746454f9be3e2f0fbb8c): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:09.474Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:10.092Z] RETRY: GetToken1(0x2c80d72af9ab0bb9d98f607c817c6f512dd647e6): Attempt 2/6 started
+[2025-03-11T09:05:10.092Z] RETRY: GetToken1(0xd6f7789406fa768a4bb0746454f9be3e2f0fbb8c): Attempt 2/6 started
+[2025-03-11T09:05:10.282Z] RETRY: GetToken1(0x2c80d72af9ab0bb9d98f607c817c6f512dd647e6): Retry succeeded after 1 attempts
+[2025-03-11T09:05:10.285Z] RETRY: GetToken1(0xd6f7789406fa768a4bb0746454f9be3e2f0fbb8c): Retry succeeded after 1 attempts
+[2025-03-11T09:05:11.071Z] INFO: Rate increased to 300 (success rate: 96.00%)
+[2025-03-11T09:05:11.982Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:12.871Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:13.385Z] RETRY: GetToken1(0xdff0fd5a15e6d08d733a9d94dd189f6d6f846293): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:13.415Z] RETRY: GetToken1(0x2c16f7be06646247977c7aa1a82a3c645f3476f3): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:13.421Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:05:13.422Z] RETRY: GetTokenDecimals(0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:13.607Z] RETRY: GetToken1(0x170afe88905ec3b34c636b7919c9f21d95acd3d3): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:13.620Z] RETRY: GetToken1(0x821fc797d33bc293d450936070b3fbcccae3c1c9): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:14.886Z] RETRY: GetToken1(0xdff0fd5a15e6d08d733a9d94dd189f6d6f846293): Attempt 2/6 started
+[2025-03-11T09:05:14.916Z] RETRY: GetToken1(0x2c16f7be06646247977c7aa1a82a3c645f3476f3): Attempt 2/6 started
+[2025-03-11T09:05:14.922Z] RETRY: GetTokenDecimals(0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce): Attempt 2/6 started
+[2025-03-11T09:05:14.939Z] RETRY: GetToken1(0xdff0fd5a15e6d08d733a9d94dd189f6d6f846293): Retry succeeded after 1 attempts
+[2025-03-11T09:05:14.970Z] RETRY: GetToken1(0x2c16f7be06646247977c7aa1a82a3c645f3476f3): Retry succeeded after 1 attempts
+[2025-03-11T09:05:15.105Z] RETRY: GetTokenDecimals(0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce): Retry succeeded after 1 attempts
+[2025-03-11T09:05:15.108Z] RETRY: GetToken1(0x170afe88905ec3b34c636b7919c9f21d95acd3d3): Attempt 2/6 started
+[2025-03-11T09:05:15.120Z] RETRY: GetToken1(0x821fc797d33bc293d450936070b3fbcccae3c1c9): Attempt 2/6 started
+[2025-03-11T09:05:15.173Z] RETRY: GetToken1(0x170afe88905ec3b34c636b7919c9f21d95acd3d3): Retry succeeded after 1 attempts
+[2025-03-11T09:05:15.302Z] RETRY: GetToken1(0x821fc797d33bc293d450936070b3fbcccae3c1c9): Retry succeeded after 1 attempts
+[2025-03-11T09:05:15.652Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:05:16.563Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:17.540Z] INFO: Rate increased to 290.40000000000003 (success rate: 100.00%)
+[2025-03-11T09:05:17.823Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:18.563Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:19.423Z] INFO: Found 2600 WETH pairs so far
+[2025-03-11T09:05:19.650Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:20.398Z] RETRY: GetToken0(0x9302cb6f567f5a27b8245af8536ed7cbee76616c): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:21.621Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:21.899Z] RETRY: GetToken0(0x9302cb6f567f5a27b8245af8536ed7cbee76616c): Attempt 2/6 started
+[2025-03-11T09:05:22.079Z] RETRY: GetToken0(0x9302cb6f567f5a27b8245af8536ed7cbee76616c): Retry succeeded after 1 attempts
+[2025-03-11T09:05:23.302Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:24.075Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:24.394Z] ERROR: Error fetching decimals for token 0xeb9951021698b42e4399f9cbb6267aa35f82d59d - Failed to get decimals for token 0xeb9951021698b42e4399f9cbb6267aa35f82d59d
+[2025-03-11T09:05:24.396Z] STACK: Error: Failed to get decimals for token 0xeb9951021698b42e4399f9cbb6267aa35f82d59d
+    at getTokenDecimals (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:429:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processPool (/Users/alex/Developer/uni-sushi-arb/testing-forge/scripts/ParsingBlockchain/getUniswapV2Pools.js:727:31)
+[2025-03-11T09:05:25.051Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:26.050Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:27.029Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:27.954Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:28.738Z] RETRY: GetPoolByIndex(2587): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:28.757Z] RETRY: GetToken0(0x3efd20d4fa13bd348cc8254624cf8bd29843e10f): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:28.798Z] RETRY: GetToken1(0x63bbf938025289fe65cf5e956e8dbb55fe3f92b5): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:30.192Z] INFO: Found 2700 WETH pairs so far
+[2025-03-11T09:05:30.239Z] RETRY: GetPoolByIndex(2587): Attempt 2/6 started
+[2025-03-11T09:05:30.258Z] RETRY: GetToken0(0x3efd20d4fa13bd348cc8254624cf8bd29843e10f): Attempt 2/6 started
+[2025-03-11T09:05:30.299Z] RETRY: GetToken1(0x63bbf938025289fe65cf5e956e8dbb55fe3f92b5): Attempt 2/6 started
+[2025-03-11T09:05:30.305Z] RETRY: GetPoolByIndex(2587): Retry succeeded after 1 attempts
+[2025-03-11T09:05:30.313Z] RETRY: GetToken0(0x3efd20d4fa13bd348cc8254624cf8bd29843e10f): Retry succeeded after 1 attempts
+[2025-03-11T09:05:30.355Z] RETRY: GetToken1(0x63bbf938025289fe65cf5e956e8dbb55fe3f92b5): Retry succeeded after 1 attempts
+[2025-03-11T09:05:30.389Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:30.457Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:31.484Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:31.984Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:32.758Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:34.007Z] RETRY: GetPoolByIndex(1012): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:35.122Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:35.406Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:35.508Z] RETRY: GetPoolByIndex(1012): Attempt 2/6 started
+[2025-03-11T09:05:35.698Z] RETRY: GetPoolByIndex(1012): Retry succeeded after 1 attempts
+[2025-03-11T09:05:35.816Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:36.910Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:37.102Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:37.821Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:39.188Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:40.042Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:40.561Z] RETRY: GetToken0(0x3b91a5715494df0d37a3349cbedfbe30b3d3b4f1): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:40.580Z] RETRY: GetToken1(0x6f1244b76a078f1a85396c3380bcfdf3db450062): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:40.620Z] INFO: Rate reduced to 240 after 3 consecutive failures
+[2025-03-11T09:05:40.621Z] RETRY: GetPoolByIndex(521): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:40.926Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:41.612Z] INFO: Found 2800 WETH pairs so far
+[2025-03-11T09:05:42.034Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:42.062Z] RETRY: GetToken0(0x3b91a5715494df0d37a3349cbedfbe30b3d3b4f1): Attempt 2/6 started
+[2025-03-11T09:05:42.082Z] RETRY: GetToken1(0x6f1244b76a078f1a85396c3380bcfdf3db450062): Attempt 2/6 started
+[2025-03-11T09:05:42.126Z] RETRY: GetPoolByIndex(521): Attempt 2/6 started
+[2025-03-11T09:05:42.149Z] RETRY: GetToken1(0x6f1244b76a078f1a85396c3380bcfdf3db450062): Retry succeeded after 1 attempts
+[2025-03-11T09:05:42.175Z] RETRY: GetToken0(0x3b91a5715494df0d37a3349cbedfbe30b3d3b4f1): Retry succeeded after 1 attempts
+[2025-03-11T09:05:42.184Z] RETRY: GetPoolByIndex(521): Retry succeeded after 1 attempts
+[2025-03-11T09:05:42.357Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:43.295Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:43.320Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:43.989Z] RETRY: GetPoolByIndex(2611): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:44.033Z] RETRY: GetPoolByIndex(3663): Attempt 1/5 failed with error: Request failed with status code 429. Retrying after 1500ms delay
+[2025-03-11T09:05:44.312Z] INFO: Worker 0 completed: 525/525 successful, 333 WETH pairs found
+[2025-03-11T09:05:44.431Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:44.698Z] INFO: Rate increased to 300 (success rate: 96.23%)
+[2025-03-11T09:05:45.489Z] RETRY: GetPoolByIndex(2611): Attempt 2/6 started
+[2025-03-11T09:05:45.533Z] RETRY: GetPoolByIndex(3663): Attempt 2/6 started
+[2025-03-11T09:05:45.554Z] RETRY: GetPoolByIndex(2611): Retry succeeded after 1 attempts
+[2025-03-11T09:05:45.656Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:45.731Z] RETRY: GetPoolByIndex(3663): Retry succeeded after 1 attempts
+[2025-03-11T09:05:46.464Z] INFO: Progress saved: 2847 pools processed, 2847 WETH pairs found, 2848 unique tokens, retries: 96 (96 successful)
+[2025-03-11T09:05:46.468Z] INFO: Token metadata saved: 2848 tokens
+[2025-03-11T09:05:47.202Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:47.994Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:49.342Z] INFO: Worker progress: 500/522 pools processed
+[2025-03-11T09:05:49.728Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:51.159Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:52.157Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:52.171Z] INFO: Worker 6 completed: 525/525 successful, 346 WETH pairs found
+[2025-03-11T09:05:52.280Z] INFO: Found 2900 WETH pairs so far
+[2025-03-11T09:05:52.895Z] INFO: Worker progress: 500/525 pools processed
+[2025-03-11T09:05:53.564Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:53.809Z] INFO: Worker 4 completed: 525/525 successful, 373 WETH pairs found
+[2025-03-11T09:05:54.542Z] INFO: Worker 2 completed: 525/525 successful, 348 WETH pairs found
+[2025-03-11T09:05:54.824Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:55.480Z] INFO: Worker 5 completed: 525/525 successful, 393 WETH pairs found
+[2025-03-11T09:05:56.437Z] INFO: Worker 1 completed: 525/525 successful, 327 WETH pairs found
+[2025-03-11T09:05:56.819Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:57.506Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:59.430Z] INFO: Rate increased to 300 (success rate: 100.00%)
+[2025-03-11T09:05:59.784Z] INFO: Worker 7 completed: 522/522 successful, 447 WETH pairs found
+[2025-03-11T09:06:04.056Z] INFO: Rate increased to 264 (success rate: 100.00%)
+[2025-03-11T09:06:06.762Z] INFO: Worker 3 completed: 525/525 successful, 382 WETH pairs found
+[2025-03-11T09:06:06.769Z] INFO: Token metadata saved: 2950 tokens
+[2025-03-11T09:06:06.770Z] INFO: Final results saved: 2949 WETH pairs, 2950 unique tokens
+[2025-03-11T09:06:06.770Z] INFO: Retry statistics: 96 total retries, 96 successful (100.00%), 0 failed
+[2025-03-11T09:06:06.770Z] INFO: Process completed successfully
+[2025-03-11T09:06:06.770Z] INFO: Total pools processed: 4197/4197
+[2025-03-11T09:06:06.770Z] INFO: Successful pools: 4197 (100.00%)
+[2025-03-11T09:06:06.770Z] INFO: WETH pairs found: 2949
+[2025-03-11T09:06:06.770Z] INFO: Failed pools: 0
