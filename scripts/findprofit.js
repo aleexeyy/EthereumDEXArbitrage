@@ -8,8 +8,8 @@ const {
 } = require("./logging.js");
 const {
     Contracts_Addresses, 
-    wssProvider,
-    rpcProvider,} = require('./constants.js');
+    rpcProvider,
+    wssProvider,} = require('./constants.js');
 const {parseUniV2} = require('./parse.js');
 const { calculateOptimalAmountIn, getOptimalSwapRoute} = require('./univ3.js');
 const {callArbitrageContract} = require("./interact.js");
@@ -29,17 +29,16 @@ const decodeTransaction = async (txHash) => {
     // }
 
     if (tx === null) {
-        return;
+        return false;
     }
     
-    if (!Contracts_Addresses.includes(tx.to)) return;
+    if (!Contracts_Addresses.includes(tx.to)) return false;
     logTrace(txHash, "received");
 
-    const start = performance.now();
     const decoded_transactions = await parseUniV2(tx);
     if (decoded_transactions == null || decoded_transactions == []) {
         logInfo("Transaction", "couldn't be decoded");
-        return;
+        return false;
     }
     console.log("Decoded Transaction: ", decoded_transactions);
     // logInfo("Transaction", "has been decoded");
@@ -62,7 +61,7 @@ const decodeTransaction = async (txHash) => {
         // console.log("swapRoute: ", swapRoute);
 
         const result = await calculateOptimalAmountIn(swapRoute);
-        if (ethers.BigNumber.isBigNumber(result)) return;
+        if (ethers.BigNumber.isBigNumber(result)) return true;
 
         console.log(result.swapData[0].outputAmount);
         console.log(result.swapData[1].outputAmount);
@@ -70,17 +69,14 @@ const decodeTransaction = async (txHash) => {
         
         try {
             await callArbitrageContract(result.amountIn, result.notWETHToken, result.swapData);
+            return true;
         } catch(error) {
             logTrace(error);
         }
 
     }
+    return false;
 
-    const end = performance.now();
-
-    totalTime += (end-start);
-    iterations++;
-    logDebug(`\nAverage Execution Time: ${(totalTime/iterations).toFixed(2)} ms`);
 
 }
 let totalTime = 0;
@@ -94,9 +90,17 @@ const main = async () => {
             return;
         }
         queue.add(async () => {
-            console.log(`Pending transaction detected: ${txHash}`);
+            // console.log(`Pending transaction detected: ${txHash}`);
             try {
-                await decodeTransaction(txHash);
+                const start = performance.now();
+                const result = await decodeTransaction(txHash);
+                const end = performance.now();
+                if (result == true) {
+                    totalTime += (end-start);
+                    iterations++;
+                    logDebug(`\nAverage Execution Time: ${(totalTime/iterations).toFixed(2)} ms`);
+                }
+
             } catch (error) {
                 logFatal(`txhash=${txHash} error ${JSON.stringify(error)}`);
             }
@@ -111,7 +115,7 @@ async function test() {
     //0xa24c4ff6882255a171c97ef304e7d9c5ff53debcc738b68e93fa114a84d44e8f
     //0x4513b72456ca1ebabe79e677eede3ed084acd37a97ebfc9192c0af74a920aeb2
     //0x98fff8ec84c54f7553937f5cc64dc12e322b0655eea285257962352582841d4c
-    const txHash = "0x3c33cd61d159302113d4e02b13c3f93a2d70f39aacc4527fb2afdceaee667e97";
+    const txHash = "0xb2fa097d8449496152e5695ee4aeb30685a28d3174edbf06219cde28b74f279a";
     try {
         await decodeTransaction(txHash);
     } catch(e) {

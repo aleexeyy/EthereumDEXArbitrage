@@ -89,8 +89,8 @@ contract ExecuteArbitrage is FlashLoanSimpleReceiverBase {
         });
         amountOut = uniswapV3Router.exactInputSingle(params);
     }
-    event Debug(string text);
-    event DebugBytes(bytes32 text);
+    
+    event LogAmount(string text, uint256 amount);
 
     function swapExactIn(uint256 amountIn, address notWETHToken, PoolData[] memory _route) internal returns(uint256) {
         address tokenIn = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
@@ -102,21 +102,21 @@ contract ExecuteArbitrage is FlashLoanSimpleReceiverBase {
             bytes32 version = _route[i].version;
             bytes32 DEX = _route[i].DEX;
 
-            emit DebugBytes(version);
             if (version == V2) {
-                emit Debug("Swapping on V2");
                 amountIn = swapOnV2(amountIn, minimumOutputAmount, tokenIn, tokenOut, DEX);
+                emit LogAmount("after swap on V2 the output amount is ", amountIn);
             } else {
-                emit Debug("Swapping on V3");
                 amountIn = swapOnV3(amountIn, minimumOutputAmount , tokenIn, tokenOut, fee);
+                emit LogAmount("after swap on V3 the output amount is ", amountIn);
             }
+
 
             (tokenIn, tokenOut) = (tokenOut, tokenIn);
         }
         return amountIn;
     }
 
-    event LogAmount(string text, uint256 amount);
+    
     function executeOperation(
         address _asset,
         uint256 _amount,
@@ -147,7 +147,7 @@ contract ExecuteArbitrage is FlashLoanSimpleReceiverBase {
 
         return true;
     }
-    event ReceivedInput(PoolData[] route, address token);
+    // event ReceivedInput(PoolData[] route, address token);
     
     function requestFlashLoan(uint256 _amount, address _notWETHToken, PoolData[] memory _route) external  {
         address receiverAddress = address(this);
@@ -155,7 +155,7 @@ contract ExecuteArbitrage is FlashLoanSimpleReceiverBase {
         uint256 amount = _amount;
         console.log("IS IT GONNA WORK?");
 
-        emit ReceivedInput(_route, _notWETHToken);
+        // emit ReceivedInput(_route, _notWETHToken);
         bytes memory params = abi.encode(_notWETHToken, _route);
         uint16 referralCode = 0;
 

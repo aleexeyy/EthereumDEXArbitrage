@@ -1,6 +1,6 @@
 
 const { ethers, BigNumber } = require('ethers');
-
+const {rpcProvider} = requrie("./constants.js");
 class Ticks {
 
     static MIN_TICK = -887272n;
@@ -9,7 +9,7 @@ class Ticks {
 
     static async getEfficientTickBitmap(poolAddress, currentTick, tickSpacing, zeroForOne) {
 
-        const rpc_provider = new ethers.providers.JsonRpcProvider('https://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO');
+        const rpc_provider = rpcProvider;
 
         const MULTICALL_ADDRESS = '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696';
 
@@ -159,8 +159,7 @@ class Ticks {
 
 // Main execution function
 async function main() {
-  // Setup provider (replace with your preferred RPC endpoint)
-  const provider = new ethers.providers.JsonRpcProvider('https://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO');
+
   
   // Uniswap V3 pool address (example - replace with actual pool address)
   const poolAddress = '0x50072FaeA4450f2ab683D5101b52B03bc6dBb703'; // USDC/WETH 0.3% pool

@@ -18,13 +18,11 @@ async function callArbitrageContract(amountIn, notWETHToken, swapData) {
     const signer = await provider.getSigner(0);
 
 
-    const CONTRACT_ADDRESS = "0x1E53bea57Dd5dDa7bFf1a1180a2f64a5c9e222f5"; 
+    const CONTRACT_ADDRESS = "0xa7480B62a657555f6727bCdb96953bCC211FFbaC"; 
 
     const CONTRACT_ABI = [
         // Event definitions
-        "event ReceivedInput(tuple(uint256 outputAmount, uint24 fee, bytes32 version, bytes32 DEX)[] route, address token)",
-        "event Debug(string text)",
-        "event DebugBytes(bytes32 text)",
+        
         "event LogAmount(string text, uint256 amount)",
         
         // Function definitions
@@ -45,16 +43,11 @@ async function callArbitrageContract(amountIn, notWETHToken, swapData) {
 
 
 
-    contract.on("ReceivedInput", (route, token, event) => {
-        console.log("ReceivedInput event detected!");
-        console.log("Route:", route);
-        console.log("Token:", token);
-        console.log("Transaction Hash:", event.transactionHash);
-    });
-    
-    contract.on("Debug", (text, event) => {
-        console.log(`Debug event: ${text}`);
-        console.log("Transaction Hash:", event.transactionHash);
+    contract.on("LogAmount", (message, amount, event) => {
+        console.log("LogAmount event detected!");
+        console.log("Message:", message);
+        console.log("AmountOut:", amount);
+        // console.log("Transaction Hash:", event.transactionHash);
     });
     
     console.log("Listening for events...");
@@ -82,6 +75,13 @@ async function callArbitrageContract(amountIn, notWETHToken, swapData) {
     await transferTx.wait();
     console.log(`Sent ${ethers.utils.formatEther(amountIn)} WETH to Arbitrage contract`);
 
+    const estimatedGas = await contract.estimateGas.requestFlashLoan(
+        amountIn,
+        notWETHToken,
+        swapData
+    );
+
+    logSuccess("Estimated Gas:", estimatedGas.toString());
     try {
         const balance_before = ethers.BigNumber.from((await wethContract.balanceOf(CONTRACT_ADDRESS)).toString());
         console.log(`Contract WETH Balance Before Arbitrage: ${ethers.utils.formatEther(balance_before)} WETH`);

@@ -1,7 +1,7 @@
 const { BigNumber: bn } = require('bignumber.js');
 const { ethers} = require("ethers");
 bn.config({ EXPONENTIAL_AT: 999999, DECIMAL_PLACES: 40 });
-const {PoolsDecimals} = require("./constants.js");
+const {PoolsDecimals, rpcProvider} = require("./constants.js");
 const {SwapV3} = require("./swapV3.js");
 const { Ticks } = require("./getTickBitMap.js");
 const { TickMath } = require("./TickMath.js");
@@ -11,7 +11,7 @@ class V2Pool {
         "function getReserves() view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast)"
       ];
     #poolContract;
-    #provider = new ethers.providers.JsonRpcProvider('https://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO');
+    #provider = rpcProvider;
     
     static async create(poolAddress, token0, token1, DEX="Uniswap") {
         const instance = new V2Pool(poolAddress, token0, token1, DEX);
@@ -164,7 +164,7 @@ class V3Pool {
     ];
 
     #poolContract;
-    #provider = new ethers.providers.JsonRpcProvider('https://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO');
+    #provider = rpcProvider;
 
     static async create(poolAddress, token0, token1, fee, DEX = "Uniswap") {
         const instance = new V3Pool(poolAddress, token0, token1, fee, DEX);

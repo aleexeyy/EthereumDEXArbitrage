@@ -11,20 +11,14 @@ const { abi: IUniswapV3PairAbi} = require("./abi/UniswapV3Pair.json");
 const { abi : arbitrageABI }= require('./abi/ArbitrageContractABI.json');
 const { abi: QuoterABI} = require("./abi/QuoterAbi.json");
 
-// wss://capable-weathered-grass.quiknode.pro/261dca23a141c54c0864a57e32176992bcc887d1
-//wss://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO
 
 //RPC ADDRESSES
-// const RPC_URL_WSS = "wss://newest-late-road.quiknode.pro/2a5c84f21e7b3d687cf7cca8cb4a2add4c7a6733";
-const RPC_URL_WSS = "wss://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO";
-//wss://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO
-const PRIVATE_KEY = "109c6a19a2bf8a16637466a6a2a0e380ffc8a025a5f371d4583177e72cb3b663";
-// const wssProviderAddress = "http://localhost:8545";
-const wssProviderAddress = "https://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO";
-//https://eth-mainnet.g.alchemy.com/v2/ifbux2lDtNf63qjvhI6A3M53YsLthsoO
+const RPC_URL_WSS = process.env.RPC_URL_WSS;
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const RPC_URL_HTTPS = process.env.HTTPS_PROVIDER_ADDRESS;
 
 const wssProvider = new ethers.providers.WebSocketProvider(RPC_URL_WSS);
-const rpcProvider = new ethers.providers.JsonRpcProvider(wssProviderAddress);
+const rpcProvider = new ethers.providers.JsonRpcProvider(RPC_URL_HTTPS);
 
 // wssProvider.on("pending", (txHash) => {
 //     console.log(`Pending transaction detected: ${txHash}`);
@@ -86,9 +80,9 @@ module.exports = {
     IUniswapUniversalRouter,
     IUniswapV2Router2,
     Contracts_Addresses, 
+    rpcProvider,
     wssProvider,
     WALLET_ADDRESS,
-    PRIVATE_KEY,
     PoolsDecimals, 
     ArbitrageRoutes,
     rpcProvider,
