@@ -205,8 +205,7 @@ Here are some potential directions to further improve the performance, accuracy,
    * Introduce **parallel processing** to increase throughput:
 
      * One thread constantly fetches pending transactions.
-     * A decoder thread processes them and passes decoded data.
-     * Worker threads (or a pool of workers) analyze decoded transactions simultaneously.
+     * Worker threads(or a pool of workers) processes them, analyzes and executes arbitrage.
    * This would significantly speed up transaction handling.
 
 ---
