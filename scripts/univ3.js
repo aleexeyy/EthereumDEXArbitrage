@@ -280,7 +280,7 @@ async function calculateOptimalAmountIn(swapRoute) {
 
     const profit = outputAmounts[1].sub(optimalAmountIn);
     const eth = new bn(10**18);
-    console.log("Profit from that shit with slippage: ", new bn(profit.toString()).dividedBy(eth).toString());
+    console.log("Profit from that with slippage: ", new bn(profit.toString()).dividedBy(eth).toString());
 
     //TODO: Change output amounts to real ones!!!
 

@@ -126,7 +126,7 @@ contract ExecuteArbitrage is FlashLoanSimpleReceiverBase {
     ) external override returns (bool) {
         // require(_initiator == address(this), "Flash Loan was not initiated by this contract");
 
-        console.log("TESTing this shit");
+        // console.log("TESTing this shit");
         (address notWETHToken, PoolData[] memory route) = abi.decode(_params, (address, PoolData[]));
         uint256 finalOutputAmount = swapExactIn(_amount, notWETHToken, route);
 
