@@ -31,6 +31,7 @@ The entry point of the program is `scripts/findprofit.js`. From there, the bot a
      * `swapExactTokensForTokens`
      * `swapTokensForExactETH`
      * `swapExactTokensForETH`
+     * `and others`
    * For **Uniswap V3**, there is a special `execute` type, which is harder to decode since it's encoded in bytes.
 
 4. **Uniswap V3 Execute Decoding**
@@ -47,7 +48,7 @@ The entry point of the program is `scripts/findprofit.js`. From there, the bot a
 
 ## 💡 Simplification
 
-The bot only works with swaps that include **WETH**, simplifying the route-building process.
+The bot only works with swaps that include **WETH**, simplifying the route-building process, also it build swap routes only of length 2.
 
 ---
 
@@ -62,7 +63,7 @@ The bot only works with swaps that include **WETH**, simplifying the route-build
 
    * Only **2-swap routes** are considered, and all swaps must involve WETH.
    * A prebuilt file `scripts/arb-config/token-to-pools.json` maps non-WETH tokens to their possible liquidity pools.
-   * If a token is not in this config, the algorithm stops.
+   * If a token is not in this config, the algorithm skips this swap.
 
 3. **Process**
 
@@ -70,7 +71,7 @@ The bot only works with swaps that include **WETH**, simplifying the route-build
    * Simulate the updated pool state after the swap using DEX math:
 
      * **Uniswap V2**: Simple reserve updates.
-     * **Uniswap V3**: Complex simulation due to liquidity positions and cross-tick swaps (requires API calls for TickBitmap).
+     * **Uniswap V3**: Complex simulation due to concentrated liquidity and cross-tick swaps (requires API calls for TickBitmap).
    * The affected pool becomes one leg of the arbitrage route.
    * A second pool is chosen from the JSON config.
    * Loop through pools to:
@@ -131,7 +132,6 @@ This bot:
 ---
 
 
-
 # Uniswap V3 Math
 
 ## Overview
@@ -174,3 +174,41 @@ The **best approach** is to:
 * Cross-reference with the documentation above for deeper understanding.
 
 ---
+
+
+# 🚀 Possible Future Improvements
+
+Here are some potential directions to further improve the performance, accuracy, and efficiency of the arbitrage bot:
+
+1. **Hardware & Node Setup**
+
+   * Current bottleneck: API calls to the blockchain take too long, especially for **Uniswap V3 pools** (which are heavily used compared to V2).
+   * Solution: Run a **local blockchain node** to speed up calls.
+   * Challenge: Requires significant storage space, which is currently a limitation.
+
+2. **Profit Calculation & Transaction Routing**
+
+   * Improve logic by including **transaction fees** in profit calculation.
+   * Instead of submitting to the public mempool, consider sending transactions **directly to validators**.
+   * Explore **bundling transactions** together with the target transaction for better execution reliability.
+
+3. **Expand Router Support**
+
+   * Add support for more routers beyond Uniswap V2/V3 and SushiSwap.
+   * Potential additions:
+
+     * **Uniswap Universal Router**
+     * **Uniswap V4 Router**
+
+4. **Parallelization & Multi-Threading**
+
+   * Introduce **parallel processing** to increase throughput:
+
+     * One thread constantly fetches pending transactions.
+     * A decoder thread processes them and passes decoded data.
+     * Worker threads (or a pool of workers) analyze decoded transactions simultaneously.
+   * This would significantly speed up transaction handling.
+
+---
+
+These improvements would make the arbitrage bot more **scalable, reliable, and competitive** in real-world conditions.
